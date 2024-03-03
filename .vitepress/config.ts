@@ -43,15 +43,13 @@ export default defineConfig({
                             },
                             { text: "AllDebrid", link: "/debrid/alldebrid" },
                             { text: "Premiumize", link: "/debrid/premiumize" },
-                            { text: "LinkSnappy", link: "/debrid/linksanppy" },
-                            { text: "Zevera", link: "/debrid/zevera" },
-                            {
-                                text: "Simply-Debrid",
-                                link: "/debrid/simply-debrid",
-                            },
                         ],
                     },
                 ],
+            },
+            {
+                text: "Chad Contributors",
+                link: "/team",
             },
         ],
 
@@ -61,9 +59,40 @@ export default defineConfig({
         ],
         search: {
             provider: "local",
+            options: {
+                miniSearch: {
+                    searchOptions: {
+                        combineWith: "AND",
+                        fuzzy: false,
+                        // @ts-ignore
+                        boostDocument: (
+                            _,
+                            term,
+                            storedFields: Record<string, string | string[]>
+                        ) => {
+                            const titles = (storedFields?.titles as string[])
+                                .filter((t) => Boolean(t))
+                                .map((t) => t.toLowerCase());
+                            // Uprate if term appears in titles. Add bonus for higher levels (i.e. lower index)
+                            const titleIndex =
+                                titles
+                                    .map((t, i) => (t?.includes(term) ? i : -1))
+                                    .find((i) => i >= 0) ?? -1;
+                            if (titleIndex >= 0) return 10000 - titleIndex;
+
+                            return 1;
+                        },
+                    },
+                },
+                detailedView: true,
+            },
         },
         footer: {
             message: "Released under the MIT License.",
+        },
+        editLink: {
+            pattern:
+                "https://github.com/debrid/debrid-wiki/edit/main/docs/:path",
         },
     },
 });
