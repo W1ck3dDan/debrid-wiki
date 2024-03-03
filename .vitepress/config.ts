@@ -38,7 +38,7 @@ export default defineConfig({
                         text: "Debrid Services",
                         items: [
                             {
-                                text: "Real-Debrid",
+                                text: 'Real-Debrid',
                                 link: "/debrid/real-debrid",
                             },
                             { text: "AllDebrid", link: "/debrid/alldebrid" },

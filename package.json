@@ -3,6 +3,9 @@
   "devDependencies": {
     "vitepress": "1.0.0-rc.44"
   },
+  "peerDependencies": {
+    "vue": "^3.4.21"
+  },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
