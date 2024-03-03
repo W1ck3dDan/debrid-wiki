@@ -50,8 +50,8 @@ For some Debrid services such as [Real-Debrid](https://real-debrid.com/), there 
 First, you need to choose and research the best Debrid services for you. There are many Debrid services available, with varying features, some examples below:
 
 -   [Real-Debrid](real-debrid.md)
--   [Premiumize](premiumize.md)
--   [AllDebrid](alldebrid.md)
+<!-- -   [Premiumize](premiumize.md)
+-   [AllDebrid](alldebrid.md) -->
 
 Payment methods include (but not limited to) [credit/debit cards, Amazon pay, Cryto](https://i.imgur.com/dERMQ22.png), etc. You can also [buy from a reseller](https://imgur.com/LlnVRDm).
 
