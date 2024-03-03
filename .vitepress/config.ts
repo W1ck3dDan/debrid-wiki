@@ -9,6 +9,7 @@ export default defineConfig({
     lastUpdated: true,
     lang: "en-US",
     cleanUrls: true,
+    ignoreDeadLinks: true,
     markdown: {
         lineNumbers: true,
     },
