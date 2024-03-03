@@ -1,9 +1,10 @@
 ---
 title: Real-Debrid
 description: Real-Debrid is an unrestricted downloader that allows you to quickly download files hosted on the Internet or instantly stream them into an innovative web player
+editLink: true
 ---
 
-# {{ $frontmatter.title }}
+# Real-Debrid
 
 Visit [Real-Debrid :octicons-arrow-up-right-24:](https://real-debrid.com/)
 

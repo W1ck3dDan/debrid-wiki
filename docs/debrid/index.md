@@ -4,7 +4,7 @@ description: Learn about the best debrid services and how to use them to downloa
 editLink: true
 ---
 
-# {{ $frontmatter.title }}
+# What are Debrid Services?
 
 These are generally paid services (with some giving free trials) where you can enter a premium link or torrent link to it and it will generate a direct download link for you. This is useful for people who want to download files from file hosting websites and torrent websites without having to wait for the file to be downloaded. It is not limited to just video files, it can be any file type.
 
