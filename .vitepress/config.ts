@@ -32,18 +32,103 @@ export default defineConfig({
         sidebar: [
             {
                 text: "Debrid Services",
-                collapsed: false,
+                collapsed: true,
                 items: [
                     { text: "What are debrid services ?", link: "/debrid/" },
                     {
                         text: "Debrid Services",
                         items: [
                             {
-                                text: 'Real-Debrid',
+                                text: "Real-Debrid",
                                 link: "/debrid/real-debrid",
                             },
                             { text: "AllDebrid", link: "/debrid/alldebrid" },
                             { text: "Premiumize", link: "/debrid/premiumize" },
+                        ],
+                    },
+                ],
+            },
+            {
+                text: "Media Servers",
+                collapsed: true,
+                items: [
+                    {
+                        text: "What are media servers ?",
+                        link: "/media-servers/",
+                    },
+                    {
+                        text: "Media Servers",
+                        items: [
+                            { text: "Plex", link: "/media-servers/plex" },
+                            {
+                                text: "Jellyfin",
+                                link: "/media-servers/jellyfin",
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                text: "Content Providers",
+                collapsed: true,
+                items: [
+                    {
+                        text: "What are content providers ?",
+                        link: "/content-providers/",
+                    },
+                    {
+                        text: "Content Providers",
+                        items: [
+                            {
+                                text: "Trakt",
+                                link: "/content-providers/trakt",
+                            },
+                            {
+                                text: "Overseerr",
+                                link: "/content-providers/overseerr",
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                text: "Scraping Services",
+                collapsed: true,
+                items: [
+                    {
+                        text: "What are scraping services ?",
+                        link: "/scraping-services/",
+                    },
+                    {
+                        text: "Scraping Services",
+                        items: [
+                            {
+                                text: "Jackett",
+                                link: "/scraping-services/jackett",
+                            },
+                            {
+                                text: "Prowlarr",
+                                link: "/scraping-services/prowlarr",
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                text: "Tools",
+                collapsed: true,
+                items: [
+                    {
+                        text: "Tools & Utilities",
+                        items: [
+                            {
+                                text: "Docker",
+                                link: "/tools/docker",
+                            },
+                            {
+                                text: "WSL",
+                                link: "/tools/wsl",
+                            },
                         ],
                     },
                 ],

@@ -6,7 +6,7 @@ editLink: true
 
 # Real-Debrid
 
-Visit [Real-Debrid :octicons-arrow-up-right-24:](https://real-debrid.com/)
+Visit [Real-Debrid](https://real-debrid.com/)
 
 Real-Debrid is an unrestricted downloader that allows you to quickly download files hosted on the Internet or instantly stream them into an innovative web player. It is a paid service that offers premium features to its users. It is a popular debrid service that supports a large number of file hosts and torrents. It is also known for its fast and reliable service.
 
