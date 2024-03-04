@@ -7,7 +7,7 @@ editLink: false
 
 This project is open to contributions from anyone who wants to help improve the documentation. Whether you're a developer, a user, or just someone who wants to help out, we welcome your contributions.
 
-But before you start contributing, please read the [Code of Conduct](https://github.com/debrid/debrid-wiki/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its terms. If you have any questions or concerns, please reach out to the project maintainers.
+But before you start contributing, please read the [Code of Conduct](https://github.com/debrid/debrid-wiki/blob/main/CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms. If you have any questions or concerns, please reach out to the project maintainers.
 
 ## How to Contribute
 
