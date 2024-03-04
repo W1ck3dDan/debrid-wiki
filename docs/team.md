@@ -1,3 +1,8 @@
+---
+title: Contributors
+editLink: false
+---
+
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
@@ -29,3 +34,5 @@ const members = [
 This project exists thanks to all the people who contribute.
 
 <VPTeamMembers size="small" :members="members" />
+
+And many more including reddit posters, discord users, and other contributors.

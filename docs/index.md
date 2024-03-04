@@ -12,7 +12,7 @@ hero:
     actions:
         - theme: brand
           text: Browse Guides & Tutorials
-          link: /debrid/
+          link: /intro
         - theme: alt
           text: Discord
           link: https://discord.gg/wDgVdH8vNM

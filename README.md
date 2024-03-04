@@ -40,7 +40,7 @@ Also, checkout [markdown extensions/guide](https://vitepress.dev/guide/markdown)
 
 ### Installation
 
-Make sure you have Node 18+ (20.x preferred)
+Make sure you have Node 18+ (20.x preferred) from [Node.js](https://nodejs.org/en/download) installed.
 
 ```sh
 npm install // pnpm /bun

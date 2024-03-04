@@ -31,6 +31,10 @@ export default defineConfig({
 
         sidebar: [
             {
+                text: "Introduction",
+                link: "/intro",
+            },
+            {
                 text: "Debrid Services",
                 collapsed: true,
                 items: [
@@ -137,6 +141,10 @@ export default defineConfig({
                 text: "Chad Contributors",
                 link: "/team",
             },
+            {
+                text: "Contributing",
+                link: "/contributing",
+            }
         ],
 
         socialLinks: [
