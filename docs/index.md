@@ -4,17 +4,16 @@ layout: home
 
 hero:
     name: "Debrid Wiki"
-    text: "Documentation for debrid & related services"
-    tagline: "Community-driven project that provides information about debrid services and related tools"
+    tagline: "Community-driven project that provides information about debrid services and related tools (WIP)"
     image:
-        src: /glow.png
+        src: /logo.png
         alt: Debrid Wiki Logo
     actions:
         - theme: brand
           text: Browse Guides & Tutorials
           link: /intro
         - theme: alt
-          text: Discord
+          text: Join Discord
           link: https://discord.gg/wDgVdH8vNM
 
 features:

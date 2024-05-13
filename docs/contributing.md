@@ -28,10 +28,6 @@ To get started, follow the installation instructions mentioned in the [README](h
 
 It is highly recommended you read the [VitePress documentation](https://vitepress.dev/) to understand how the documentation is structured and how to write and format Markdown files.
 
-Here's a basic explanation of the structure of the documentation:
-
-![structure](/contributing/structure.excalidraw.png)
-
 For more, see the [VitePress documentation](https://vitepress.dev/).
 
 - [Read the markdown guide](https://vitepress.dev/guide/markdown)
