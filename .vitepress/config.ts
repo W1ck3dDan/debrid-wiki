@@ -52,6 +52,10 @@ export default defineConfig({
                             },
                         ],
                     },
+                    {
+                        text: "Riven",
+                        link: "/riven",
+                    },
                 ],
             },
             {
